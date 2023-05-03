@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Nom de l'entreprise",
+    "name": "Nina Carducci",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "68 avenue Alsace-Lorraine",
