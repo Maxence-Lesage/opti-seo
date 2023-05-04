@@ -7,6 +7,7 @@
 		content="La photographe Nina Carducci vous propose shooting photo, retouches, albums photos personnalisé pour vos portraits votre entreprise ou pour immortaliser des événements tels que des mariages, concerts, etc...">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 	<meta property="og:title" content="Nina Carducci">
 	<meta property="og:url" content="https://maxence-lesage.github.io/opti-seo/">
 	<meta property="og:description"
@@ -17,6 +18,7 @@
 	<meta property="og:determiner" content="la">
 
 	<meta name="twitter:card" content="summary">
+
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" defer>
 	<link rel="stylesheet" href="./assets/style.css">
@@ -34,7 +36,36 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 
-	<link type="application/ld+json" rel="alternate" src="./jsonld.json">
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Organization",
+		  "name": "Nom de l'entreprise",
+		  "address": {
+		    "@type": "PostalAddress",
+		    "streetAddress": "68 avenue Alsace-Lorraine",
+		    "addressLocality": "Bordeaux",
+		    "postalCode": "33200",
+		    "addressCountry": "FR"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHoursSpecification": [
+		    {
+		      "@type": "OpeningHoursSpecification",
+		      "dayOfWeek": [
+		        "Monday",
+		        "Tuesday",
+		        "Wednesday",
+		        "Thursday",
+		        "Friday"
+		      ],
+		      "opens": "10:00",
+		      "closes": "19:00"
+		    }
+		  ]
+		}
+		</script>
+
 </head>
 
 <body>
