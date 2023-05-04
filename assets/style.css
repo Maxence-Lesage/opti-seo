@@ -428,6 +428,7 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+		aspect-ratio: 1/1;
 	}
 
 }
