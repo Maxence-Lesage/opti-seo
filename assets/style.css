@@ -325,6 +325,7 @@ input[type="submit"] {
 
 	.picture {
 		width: 50%;
+		aspect-ratio: 1/1;
 	}
 
 	.picture.left::before {
